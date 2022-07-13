@@ -1,0 +1,75 @@
+*{
+    background-color: lightgreen;
+}
+
+.page-title{
+    color:black;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.chef-hyperlink{
+    display:block;
+    height:auto;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chef-image{
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    }
+
+.both-items{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.single-item{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images{
+    height: auto;
+    width: 150px;
+    background-color: grey;
+}
+
+.carbonara{
+    vertical-align: left;
+    display:  inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+.french-macaroons{
+    vertical-align: right;
+    display:  inline-block;
+    text-align: center;
+    width: 180px;
+}
+
+.lasagna{
+    vertical-align: right;
+    display:  inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+.caption{
+    display:block;
+}

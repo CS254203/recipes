@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes Project</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Recipes</h1>
+    <h1 class="page-title">Carlos' Recipes</h1>
+    <div>
+        <a href="https://github.com/CS254203" class="chef-hyperlink"><img src="images/chef.jpg" alt="chef-image" class="chef-image"></a>
+    </div>
     <ul>
-        <li><a href="dishes/carbonara.html">Carbonara</a></li>
-        <li><a href="dishes/french-macaroons.html">French-Macaroons</a></li>
-        <li><a href="dishes/lasagna.html">Lasagna</a></li>
+        <li class="both-items">
+            <div class="carbonara">
+                <img src="images/carbonara.png" alt="carbonara-logo" class="images">
+                <span class = "caption"><a href="dishes/carbonara.html">Carbonara</a></span>
+            </div>
+            <div class="french-macaroons">
+                <img src="images/french-macaroons.jpg" alt="french-macaroons-logo" class="images">
+                <span class="caption"><a href="dishes/french-macaroons.html">French-macaroons</a></span>
+    
+            </div>
+        </li>
+        <li class="single-item">
+            <div class="lasagna">
+                <img src="images/lasagna.jpg" alt="lasagna-logo" class="images">
+                <span class="caption"><a href="dishes/lasagna.html">Lasagna</a></span>
+            </div>
+        </li>
     </ul>
 </body>
 </html>
